@@ -25,7 +25,7 @@ export const sendResetMail = (userId, userEmail) => {
         text: "The link is active only 5 minutes!",
         html: `
             <h1>The link is active only 5 minutes!</h1>
-            <a href='https://contact-hz9m.onrender.com/reset/${token}'>Reset your password now!</a>
+            <a href='http://localhost:3000/reset/${token}'>Reset your password now!</a>
         `
     }
 
