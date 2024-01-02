@@ -32,7 +32,7 @@ app.use('/api/reset', resetRoute)
 app.use('/api/notification', notificationRoute)
 app.use('/api/report', reportRoute)
 //admin
-app.use('/admin', adminRoute)
+app.use('/api/admin', adminRoute)
 
 
 const start = async () => {
